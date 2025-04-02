@@ -12,8 +12,8 @@
       "publicKeyJwk": {
         "kty": "EC",
         "crv": "secp256k1",
-        "x": "fde4d046f658c2f43027c53f66f85b45738e11169bf460108b2d6b304fb7d193",
-        "y": "cf82f05267cd0499765f89973b60385a969e487b02f4956d24ab02626e13c11b"
+        "x": "cd2232338ef3abe2af9278122b7d03d97768e301c8de3b96c587cb10578147ec",
+        "y": "d330464a2e478247c610cd8b4f025b95d1a75406b5eb4ce449740a178163f7a4"
       }
     }
   ],
@@ -24,3 +24,4 @@
     "did:web:jann0k.github.io#owner"
   ]
 }
+
