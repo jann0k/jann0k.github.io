@@ -1,27 +1,38 @@
 {
-  "@context": [
-    "https://www.w3.org/ns/did/v1",
-    "https://w3id.org/security/suites/jws-2020/v1"
-  ],
-  "id": "did:web:jann0k.github.io",
-  "verificationMethod": [
-    {
-      "id": "did:web:jann0k.github.io#owner",
-      "type": "JsonWebKey2020",
-      "controller": "did:web:jann0k.github.io",
-      "publicKeyJwk": {
-        "kty": "EC",
-        "crv": "secp256k1",
-        "x": "zSIyM47zq+KvkngSK30D2Xdo4wHI3juWxYfLEFeBR+w=",
-        "y": "0zBGSi5HgkfGEM2LTwJbldGnVAa160zkSXQKF4Fj96Q="
-      }
+    "content": {
+        "@context": [
+            "https://www.w3.org/ns/did/v1",
+            "https://w3id.org/security/suites/jws-2020/v1"
+        ],
+        "id": "did:web:jannok.github.io",
+        "verificationMethod": [
+            {
+                "id": "did:web:jannok.github.io#B5X3hSNVB4eLrnDO2gTA54g7kK34XUXYIo_W-4bi_kE",
+                "type": "JsonWebKey2020",
+                "controller": "did:web:jannok.github.io",
+                "publicKeyJwk": {
+                    "kty": "EC",
+                    "crv": "secp256k1",
+                    "kid": "B5X3hSNVB4eLrnDO2gTA54g7kK34XUXYIo_W-4bi_kE",
+                    "x": "RsacDEXxUepllP6EqHbUbp6ZJRVQrmXeFeLt0iu60ww",
+                    "y": "LLBrA_6olBlYLujwVzJ4XmNPEMt5c-rgUrMvshfFID4"
+                }
+            }
+        ],
+        "assertionMethod": [
+            "did:web:jannok.github.io#B5X3hSNVB4eLrnDO2gTA54g7kK34XUXYIo_W-4bi_kE"
+        ],
+        "authentication": [
+            "did:web:jannok.github.io#B5X3hSNVB4eLrnDO2gTA54g7kK34XUXYIo_W-4bi_kE"
+        ],
+        "capabilityInvocation": [
+            "did:web:jannok.github.io#B5X3hSNVB4eLrnDO2gTA54g7kK34XUXYIo_W-4bi_kE"
+        ],
+        "capabilityDelegation": [
+            "did:web:jannok.github.io#B5X3hSNVB4eLrnDO2gTA54g7kK34XUXYIo_W-4bi_kE"
+        ],
+        "keyAgreement": [
+            "did:web:jannok.github.io#B5X3hSNVB4eLrnDO2gTA54g7kK34XUXYIo_W-4bi_kE"
+        ]
     }
-  ],
-  "authentication": [
-    "did:web:jann0k.github.io#owner"
-  ],
-  "assertionMethod": [
-    "did:web:jann0k.github.io#owner"
-  ]
 }
-
